@@ -70,7 +70,7 @@ public class FrontController {
 			return "view1";
 		}
 	
-		return "index";
+		return "view0";
 }
 
 
@@ -125,17 +125,6 @@ public class FrontController {
 	// 	return "index";
 
 
-
-        // List<ObjectError> errors = authSvc.validatePizzaOrder(username);
-        // if(!errors.isEmpty()){
-        //     for(ObjectError e :errors)
-        //         result.addError(e);
-        //     return "index";
-        // }
-
-    //     session.setAttribute("pizza", pizza);
-    //     m.addAttribute("delivery", new Delivery());
-    //     return "delivery";
 
 
 
